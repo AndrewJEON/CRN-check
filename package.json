@@ -1,0 +1,17 @@
+{
+  "name": "lamda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/checkCRN.js",
+    "test": "node src/test.js",
+    "deploy": "sudo sls deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "xml2js": "^0.4.23"
+  }
+}
